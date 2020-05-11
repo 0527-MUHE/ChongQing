@@ -1,0 +1,210 @@
+.container-fluid {
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	/* color: #fff; */
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.fh {
+	background: #333;
+	text-align: left;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+	color: #fff;
+
+}
+
+header {
+
+	text-align: center;
+}
+
+header img {
+	width: 72%;
+	border-radius: 0 0 30px 30px;
+}
+
+/* plan */
+.plan {
+	text-align: center;
+}
+
+.plan h4 {
+	letter-spacing: 2px;
+	margin-top: 90px;
+	display: inline-block;
+	color: green;
+	font-weight: 600;
+}
+
+.plan h1 {
+	display: inline-block;
+	color: green;
+	letter-spacing: 2px;
+
+}
+
+.plan h3 {
+	margin-top: 0;
+}
+
+.plan .col-lg-6 img {
+	width: 100%;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+
+.plan ul li {
+	text-align: left;
+}
+
+.plan ul li h4 {
+	margin-top: 30px;
+	color: #333;
+}
+
+.plan ul li p {
+	text-align: left;
+
+}
+
+.plan ul li .pl {
+	padding-bottom: 20px;
+}
+
+.plan .wh {
+	margin: 60px 0 0 -90px;
+	padding: 0;
+	background: #FFF;
+	border-radius: 30px;
+}
+
+/* step2 */
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #555;
+	background-color: #fff;
+	color: #204D74;
+	font-weight: 600;
+}
+
+nav {
+	margin-top: 50px;
+}
+
+nav ul li a {
+	text-align: center;
+}
+
+nav ul li a.active {
+	background: #fff;
+}
+
+nav ul li img {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+
+.plan nav ul li p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.plan nav ul li p:hover {
+	color: #204D74;
+}
+
+.main {
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 0 10px;
+	height: 300px;
+	overflow: auto;
+	position: relative;
+}
+
+.main p {
+	text-align: left;
+	text-indent: 30px;
+}
+
+.biaoti {
+	text-indent: 10px !important;
+
+	font-weight: 600;
+}
+
+.part3 .img {
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+.part3 img {
+	width: 80% !important;
+}
+
+.part3-text {
+	background: #fff;
+	border-radius: 20px;
+	margin-top: 90px;
+	margin-left: -80px;
+}
+
+.part3-text p {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.part3-text p:first-child {
+	padding-top: 30px;
+}
+
+.part3-text p:last-child {
+	padding-bottom: 30px;
+}
+
+@media (max-width:1200px) {
+	.part3 .img {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.part3-text {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.plan .wh {
+		margin: 0;
+	}
+}
+
+
+@media (max-width:400px) {
+	header img {
+		width: 100%;
+		border-radius: 0 0 10px 10px;
+	}
+
+	
+
+
+}

@@ -1,0 +1,160 @@
+body{
+	background: url(../images/hgbanner.jpg)no-repeat;
+	background-position: center center; 
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container-fluid{
+	padding: 0 ;
+}
+h1,h2,h3,h4,h5,h6,p{
+	color: #fff;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.fh{
+	background: #333;
+	text-align: left;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+}
+/* 头部 */
+.header{
+	background: rgba(0,0,0,0.4);
+	line-height: 50px;
+}
+.line{
+	width: 15%;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+header div:first-child{
+	margin-top: 230px;
+}
+header h3{
+	margin-bottom: 30px;
+}
+header .more{
+	margin-top:270px;
+	padding-bottom: 20px;
+}
+.flr{
+	float: right;
+}
+/* 火锅介绍文字 */
+.text{
+	background: #252326;
+	opacity: 0.98;
+}
+.text h3 {
+	margin: 0;
+	padding-top: 120px;
+}
+.text h4 {
+	padding-top: 10px;
+}
+span{
+	width: 5%;
+	height: 2px;
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.text p{
+	margin: 0;
+	padding: 40px 25%;
+	padding-bottom: 80px;
+	line-height: 30px;
+}
+/* 麻辣板块 */
+.ml{
+	height: 432px;
+	background: #333;
+	opacity: .97;
+}
+.ml div{
+	text-align: center;
+}
+.ml img{
+	width: 40%;
+	padding: 90px 20px;
+}
+.ml h2{
+	margin: 0;
+	padding-top: 100px;
+}
+.ml p{
+	margin: 0;
+	padding: 60px 80px 92px;
+	line-height: 30px;
+}
+/* 菜品 */
+
+.cp{
+	clear: both;
+	background: #fff;
+}
+.cp h2{
+	color: #333;
+	margin: 0;
+	padding-top: 100px;
+}
+.cp h4{
+	color: #333;
+
+}
+.cp p{
+	color: #333;
+	margin: 0;
+	padding: 30px 22%;
+}
+
+
+.swiper-container {
+	background: #fff;
+				width: 100%;
+				padding: 60px 0 90px;
+			}
+.swiper-slide{
+	text-align: center;
+}			
+.swiper-slide img{
+	width: 100%;
+}
+
+@media (max-width: 1200px) {
+	section p{
+		padding: 50px!important;
+	}
+	.ml {
+		height: auto;
+	}
+	.flr{
+		float: none;
+	}
+
+	header .more{
+		margin-top:200px;
+		padding-bottom: 20px;
+	}
+	.text h4{
+		padding: 27px 27px 10px;
+		line-height: 32px;
+	}
+	.text span{
+		margin: 0 auto;
+		width: 15%;
+	}
+	.ml img{
+		width: 45%;
+		padding: 20px 10px 40px;
+	}
+	#s{
+		margin-top: -5px;
+	}
+}

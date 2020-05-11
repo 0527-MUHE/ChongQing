@@ -1,0 +1,219 @@
+.container-fluid {
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #fff;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.fh {
+	background: #333;
+	text-align: left;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+}
+
+/* 头部 */
+.header {
+	background: rgba(0, 0, 0, 0.4);
+	line-height: 50px;
+}
+
+.line {
+	width: 15%;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+header div:first-child {
+	margin-top: 80px;
+}
+
+header h3 {
+	margin-bottom: 30px;
+}
+
+header p {
+	line-height: 24px;
+}
+
+header .more {
+	margin-top: 290px;
+	padding-bottom: 20px;
+}
+
+body {
+	background: url(../images/bg-sc.jpg) no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.col-lg-6,
+.col-lg-6 {
+	padding: 0;
+	/* height: 520px; */
+}
+
+/* part中文字排列部分 */
+section h1 {
+	font-size: 82px;
+	color: #a30000;
+	font-weight: 600;
+	margin-top: 0;
+	padding-top: 90px;
+}
+
+section h2 {
+	margin-top: 40px;
+}
+
+section h4 {
+	margin-top: 20px;
+}
+
+section p {
+	text-align: left;
+	margin: 0 !important;
+	padding: 30px 80px 142px;
+}
+
+/* 单数部分背景和字体颜色 */
+section:nth-child(odd) div:first-child {
+	background: #46474d;
+	opacity: .95;
+
+}
+
+section:nth-child(odd) .col-lg-6:last-child {
+	background: #46474d;
+	opacity: .95;
+	text-align: center;
+
+}
+
+/* 双数数部分背景和字体颜色 */
+section:nth-child(even) div:first-child {
+	background: #fff;
+}
+
+section:nth-child(even) h2 {
+	color: #333;
+}
+
+section:nth-child(even) h4 {
+	color: #333;
+}
+
+section:nth-child(even) p {
+	color: #333;
+}
+
+section:nth-child(even) .col-lg-6:last-child {
+	background: #fff;
+}
+
+/* part1 */
+.part1 img {
+	width: 100%;
+}
+
+/* part2 */
+.font-b p {
+	padding-bottom: 88px;
+}
+
+.part2 .col-lg-6:last-child {}
+
+.part2 img {
+	padding: 0;
+	margin: 40px 0;
+	margin-left: 6.1%;
+	height: auto;
+	width: 40%;
+}
+
+/* part3 */
+.part3 .img4 img {
+	width: 70%;
+	height: auto;
+	margin-top: 80px;
+}
+
+.part3 .img4 img:last-child {
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+.part3 p {
+	padding-bottom: 99px;
+}
+
+/* part4 */
+.part4 img {
+	margin: 20px 4%;
+	width: 41%;
+}
+
+.part4 .col-lg-6:last-child {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.part4 p {
+	padding-bottom: 155px;
+}
+
+/* part5 */
+.part5 img {
+	width: 70%;
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+.part5 p {
+	padding-bottom: 119px;
+}
+
+/* part6 */
+.part6 img {
+	width: 36%;
+	margin-left: 9%;
+}
+
+.part6 p {
+	padding-bottom: 96px !important;
+}
+
+@media (max-width: 500px) {
+	section p {
+		padding: 30px 40px 0px !important;
+	}
+
+	.part6 p {
+		padding: 30px 40px 0px !important;
+
+	}
+
+	.part1 .col-lg-6:last-child {
+		padding-top: 50px;
+	}
+
+	header .more {
+		margin-top: 240px;
+		padding-bottom: 20px;
+	}
+
+}

@@ -1,0 +1,287 @@
+.container-fluid {
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #fff;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.fh {
+	background: #333;
+	text-align: left;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+}
+
+/* 头部 */
+.header {
+	background: rgba(0, 0, 0, 0.4);
+	line-height: 50px;
+}
+
+.line {
+	width: 15%;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+header div:first-child {
+	margin-top: 80px;
+}
+
+header h3 {
+	margin-bottom: 30px;
+}
+
+header p {
+	line-height: 24px;
+}
+
+header .more {
+	margin-top: 260px;
+	padding-bottom: 20px;
+}
+
+body {
+	background: url(../images/zcool1576460524093.jpeg) no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* 第一部分 */
+.part1 {
+	background: rgba(51, 51, 51, .85);
+	padding: 50px 0;
+	width: 100%;
+}
+
+.dy h3:first-child {
+	padding-top: 70px;
+}
+
+.dy {
+	margin: 0 auto;
+	height: 2550px;
+	width: 100%;
+	background: url(../images/dy.jpg) no-repeat;
+	background-position: top center;
+	opacity: 1 !important;
+	margin-top: 50px;
+
+
+}
+
+.dy .p-first {
+	margin-top: 40px;
+}
+
+/* 第二部分 */
+.part2 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.xs {
+	background: #fff;
+	margin: 0;
+
+}
+
+.part2 p:first-child {
+	padding-top: 100px;
+}
+
+.part2 p:last-child {
+	text-align: right;
+	padding-bottom: 50px;
+}
+
+.part2 p {
+
+	color: #333;
+	margin: 0;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	line-height: 32px;
+	text-align: left;
+	text-indent: 40px;
+}
+
+.part2 h4 {
+	color: #333;
+	margin: 0;
+	padding: 70px 0;
+}
+
+.imgs {
+	background: #fff !important;
+	height: 450px;
+}
+
+.imgs h1 {
+	color: #444;
+}
+
+.imgs .text {
+	margin-top: 80px;
+	height: 200px;
+	margin-left: -150px;
+}
+
+.imgs .text p {
+	text-align: left;
+
+}
+
+.imgs img {
+	width: 80%;
+}
+
+.imgs .col-lg-6:first-child {
+	text-align: right;
+	padding: 0 30px;
+}
+
+
+/* swiper */
+.part3 {
+	background: #333;
+	padding: 0;
+
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+.swiper-slide {
+	font-size: 18px;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 40px 60px;
+}
+
+.parallax-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.swiper-slide .title {
+	font-size: 41px;
+	font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+	font-size: 21px;
+}
+
+.swiper-slide .text {
+	font-size: 14px;
+	max-width: 400px;
+	line-height: 1.3;
+}
+
+.subtitle {
+	margin-top: 20px;
+}
+
+.text p {
+	text-align: left;
+	margin-top: 30px;
+	padding-bottom: 150px;
+}
+
+.hd {
+	color: #333;
+	background: #fff;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+	.dy {
+
+		background-size: 90%;
+
+	}
+
+	.dy h3 {
+		font-size: 18px;
+	}
+
+	.dy h3:first-child {
+		padding-top: 30px;
+	}
+
+	.dy p {
+		line-height: 20px;
+	}
+
+	.xs h4 {
+		padding: 40px;
+		line-height: 28px;
+	}
+
+	.part2 p {
+		width: 80% !important;
+	}
+
+	.part1 {
+		height: 2400px;
+	}
+}
+
+@media (max-width: 700px) {
+	.part1 {
+		height: 2200px;
+	}
+}
+
+@media (max-width: 600px) {
+	.part1 {
+		height: 2000px;
+	}
+}
+
+@media (max-width: 500px) {
+	.part1 {
+		height: 1800px;
+	}
+}
+
+@media (max-width: 400px) {
+	.part1 {
+		height: 1400px;
+	}
+
+	.hd {
+		margin-top: -1px;
+	}
+	header .more {
+    margin-top: 190px;
+}
+}
